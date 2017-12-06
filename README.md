@@ -9,3 +9,10 @@ A raiz de la demostración con GetLetter de que montar una contraseña en base a
 # Usage
 
 Es sencillo, y solo tiene un argumento válido. 
+>PWrand <int>
+
+Tan sencillo como eso. Solo se necesita ejecutar el programa y decirle de cuántos caracteres será la contraseña que pretendéis generar.
+
+Si hablamos de aleatoriedad, es bien sabido que en programación nada es aleatorio, sino más bien pseudoaleatorio, se puede recrear un mismo escenario para que devuelva una misma contraseña, por ejemplo algunas funciones Rand, como puede ser las de C++ devuelven el valor aleatorio en función de X números de procesos en ese momento, o X tiempo en la pila, una de las formas de crear una secuencia totalmente aleatoria sería en función del sonido que emite un dispositivo.
+
+En definitiva, son números que no son verdaderamente aleatorios pero sirven para una aplicacion que espera algun grado de aleatoridad, y para este caso va perfecto.

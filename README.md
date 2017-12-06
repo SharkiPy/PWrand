@@ -9,7 +9,7 @@ A raiz de la demostración con GetLetter de que montar una contraseña en base a
 # Usage
 
 Es sencillo, y solo tiene un argumento válido. 
->PWrand <int>
+>PWrand < int >
 
 Tan sencillo como eso. Solo se necesita ejecutar el programa y decirle de cuántos caracteres será la contraseña que pretendéis generar.
 
